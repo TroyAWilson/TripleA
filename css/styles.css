@@ -1,0 +1,171 @@
+/**********************************************************************************
+      GLOBAL STYLES
+ *********************************************************************************/
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.05em;
+  background-image: url(../images/hardwood-material-rough-935875.jpg);
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+
+}
+img{
+  max-width: 100%;
+}
+ul{
+  display: flex;
+  list-style: none;
+}
+li{
+  margin:10px;
+}
+h1{
+  margin:.3em 0;
+}
+h2{
+  color: tomato;
+}
+h4{
+  margin: .5em 0;
+}
+.indent::first-letter{
+  margin-left:50px;
+}
+.pink{
+  color:#ff4162;
+}
+.main-container{
+  background-color: #242930;
+  margin: 0 50px;
+  padding: 10px;
+  border-bottom: 1px solid tomato;
+}
+/**********************************************************************************
+      HEADER STYLES
+ *********************************************************************************/
+.main-header{
+  background-color: #242930;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+  width: 100%;
+}
+.vallejosBest{
+  margin-left: 50px;
+  color: tomato;
+}
+.main-nav li{
+  transition:.5s;
+  font-size: 1.2em;
+}
+.main-nav li:hover{
+  color: tomato;
+  transform: scale(1.05);
+}
+.navSide{
+  display: flex;
+  flex-direction: column-reverse;
+  align-self: center;
+}
+/**********************************************************************************
+      ABOUT STYLES
+ *********************************************************************************/
+.blueLabel{
+  background-color:#00A6FE;
+  padding: 5px;
+  border-radius: 5px;
+}
+.about-container{
+  display: flex;
+  margin-bottom: 25px;
+}
+.prodServList ul{
+  display:flex;
+  flex-wrap: wrap;
+  /* max-width: 50%; */
+}
+.prodServList li{
+  list-style: circle;
+  margin: 5px 15px;
+}
+aside{
+  margin: auto;
+  max-width: 50%;
+  text-align:center;
+}
+main{
+  max-width: 50%;
+}
+/**********************************************************************************
+      IMPORTANT INFO STYLES
+*********************************************************************************/
+#important-information{
+}
+
+/**********************************************************************************
+       GALLERY STYLES
+*********************************************************************************/
+.gallery-pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.gallery-pictures img{
+  margin: 5px;
+}
+/**********************************************************************************
+        CONTACT STYLES
+*********************************************************************************/
+.findUS{
+  display: flex;
+}
+.findUS form{
+  display: flex;
+  flex-direction: column;
+  margin:auto;
+}
+.findUS-info{
+  display:flex;
+  flex-direction: column;
+}
+.formStyle{
+  margin:5px;
+}
+button{
+  align-self: center;
+    padding: 5px 100px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    transition: .5s;
+}
+button:hover{
+  cursor: pointer;
+  background-color: tomato;
+}
+/**********************************************************************************
+        FOOTER STYLES
+*********************************************************************************/
+footer{
+  /* border-top: 1px solid tomato; */
+  background-color: #242930;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: .8em;
+}
+footer p {
+  margin: 5px;
+}
+footer a {
+  text-decoration: underline;
+}
